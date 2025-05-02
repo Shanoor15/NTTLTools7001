@@ -2,8 +2,8 @@ package com.nt.service;
 
 public class Arithmetic {
 
-	public int sum(int x,int y)
+	public int sum(int a,int b)
 	{
-		return x+y;
+		return a+b;
 	}
 }
