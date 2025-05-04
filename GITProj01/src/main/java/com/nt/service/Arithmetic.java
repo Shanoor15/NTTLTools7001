@@ -4,6 +4,6 @@ public class Arithmetic {
 
 	public double sum(double a,double b)
 	{
-		return (a+b);
+		return (a+b+1);
 	}
 }
