@@ -7,4 +7,8 @@ public class NetBanking {
 	{
 		return "@"+amount+" amount is transfering from "+srcAcount+" to "+destAcount;
 	}
+	
+	public String transferMoneyUsingIMPS(long srcAcount,long destAcount,String ifscCode,double amount) {
+		return "@"+amount+" amount is transfering from "+srcAcount+" to "+destAcount+"usingIMPS";
+	}
 }
