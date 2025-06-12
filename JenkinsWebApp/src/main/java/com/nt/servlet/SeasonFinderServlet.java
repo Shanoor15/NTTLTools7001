@@ -32,7 +32,7 @@ public class SeasonFinderServlet  extends  HttpServlet {
 		 else
 			      seasonName="Winter Season";
 		 //write the  results/output to browser as rresponse 
-		 pw.println("<h1  style='color:olive;text-align:center'>"+seasonName +"</h1>");
+		 pw.println("<h1  style='color:navy blue;text-align:center'>"+seasonName +"</h1>");
 		 //add home hyperlink
 		 pw.println("<a href='index.jsp'>home <img src='images/home.png' width='50'  height='50'>  </a>");
 		 
